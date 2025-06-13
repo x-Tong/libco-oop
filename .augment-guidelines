@@ -1,0 +1,15 @@
+# 项目目录结构
+
+所有源代码都放在 @/home/xtong/self_proj/libco-oop/src 目录下，
+所有头文件都放在 @/home/xtong/self_proj/libco-oop/include 目录下，
+所有测试用例都放在 @/home/xtong/self_proj/libco-oop/test 目录下，
+所有文档都放在 @/home/xtong/self_proj/libco-oop/docs 目录下，
+所有临时文件都放在 @/home/xtong/self_proj/libco-oop/tmp 目录下，
+所有参考代码都放在 @/home/xtong/self_proj/libco-oop/refrerence 目录下，
+
+# 开发计划
+
+所有的开发计划都放在 @/home/xtong/self_proj/libco-oop/DEV_PLAN.md 文件中，
+
+
+
