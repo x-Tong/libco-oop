@@ -10,6 +10,9 @@
 # 开发计划
 
 所有的开发计划都放在 @/home/xtong/self_proj/libco-oop/DEV_PLAN.md 文件中，
+完成一个子任务后：
+1. 更新 DEV_PLAN.md 文件中的项目进度和子任务完成情况
+2. 使用 xmake project -k compile_commands 生成 compile_commands.json 文件，
 
 
 

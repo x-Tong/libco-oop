@@ -1,3 +1,7 @@
 .vscode/
 .idea/
 reference/
+.cache/
+.xmake/
+build/
+compile_commands.json
