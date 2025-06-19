@@ -1,3 +1,8 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
 # 项目目录结构
 
 所有源代码都放在 @/home/xtong/self_proj/libco-oop/src 目录下，
@@ -11,8 +16,7 @@
 
 所有的开发计划都放在 @/home/xtong/self_proj/libco-oop/DEV_PLAN.md 文件中，
 完成一个子任务后：
-1. 更新 DEV_PLAN.md 文件中的项目进度和子任务完成情况
+1. 更新 DEV_PLAN.md 文件中的项目进度和子任务完成情况,完成时间需要使用当前日期, 使用date命令获取
 2. 使用 xmake project -k compile_commands 生成 compile_commands.json 文件，
-
 
 

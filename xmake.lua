@@ -39,13 +39,15 @@ add_includedirs("include", "include/internal")
 -- 配置依赖包
 add_requires("gtest", "benchmark")
 
--- 主静态库目标（当前为空库，随着开发进度逐步添加源文件）
+-- 主静态库目标
 target("libco_oop")
     set_kind("static")
-    -- 临时添加空源文件，避免空库问题
+    -- 添加核心源文件
+    add_files("src/core/context.cpp")
+    add_files("src/core/context_switch.S")
+    -- 保留空文件确保编译
     add_files("src/core/empty.cpp")
-    -- 后续会逐步添加：src/core/*.cpp, src/scheduler/*.cpp, src/io/*.cpp, src/utils/*.cpp
-    -- add_files("src/core/*.S") -- 汇编文件支持（后续添加）
+    -- 后续会逐步添加：src/scheduler/*.cpp, src/io/*.cpp, src/utils/*.cpp
     
     -- 设置输出目录
     set_targetdir("build/lib")
